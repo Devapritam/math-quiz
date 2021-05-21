@@ -4,7 +4,6 @@ body
 {
 	background: lightblue;
 	box-sizing: border-box;
-	background:  rgba(0, 0, 0, 0.9) url('https://img.freepik.com/free-vector/quiz-background_23-2148159850.jpg?size=338&ext=jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -26,22 +25,31 @@ body
 	display: inline-block;
 	font-family: inherit;
 }
-#word
+#number_1
 {
 	width: 60%;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
 }
+
+#number_2
+{
+	width: 60%;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
+}
+
 #word_display
 {
 	letter-spacing: 5px;
 }
 #output
 {
-background: white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+	box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
 }
 
 .btn {
