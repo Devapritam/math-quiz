@@ -6,4 +6,6 @@ function addUser() {
     localStorage.setItem("player2", player2);
 
     window.location = "game_play.html";
+    document.getElementById("user1_input").value = "";
+    document.getElementById("user2_input").value = "";
 }

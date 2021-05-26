@@ -46,4 +46,15 @@ text-align: left;
 
 .btn {
 	box-shadow: 0 3px 7px rgb(0 0 0 / 80%);
+	outline: none;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #bbb;
+	border: 2px solid white;
+	border-radius: 20px;
 }
